@@ -16,4 +16,4 @@ const projectSchema = new Schema<TProject>({
 
 })
 
-export const ProjectModel = model<TProject>('SportsItem', projectSchema);
+export const ProjectModel = model<TProject>('Projects', projectSchema);

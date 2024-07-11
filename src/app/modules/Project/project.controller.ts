@@ -4,18 +4,7 @@ import { ProjectServices } from "./project.service";
 
 
 
-
-
-
-
-
-
-
-
-
-
 const addProduct = catchAsync(async (req, res) => {
-    console.log(req);
     const result = await ProjectServices.addProjectIntoDB(req.body);
 
     sendResponse(res, {

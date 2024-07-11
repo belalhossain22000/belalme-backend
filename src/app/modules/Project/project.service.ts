@@ -21,11 +21,7 @@ const getAllProjectsFromDB = async () => {
 };
 
 const updateProject = async (_id: string, payload: Partial<TProject>) => {
-  console.log('******************************');
-  console.log('Updating project with ID:', _id);
-  console.log('Payload:', payload);
-  console.log('******************************');
-
+  
   try {
     const result = await ProjectModel.findOneAndUpdate(
       { _id },
@@ -34,11 +30,9 @@ const updateProject = async (_id: string, payload: Partial<TProject>) => {
     );
 
     if (!result) {
-      console.error('No document found with that ID');
       return null;
     }
 
-    console.log('Update result:', result);
     return result;
   } catch (error) {
     console.error('Error updating project:', error);

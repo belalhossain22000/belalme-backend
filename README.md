@@ -1,17 +1,3 @@
-<h1 align="center" id="title">Sports items management dashboard</h1>
-
-<p id="description">The Learn Sphere Course Management System API is designed to provide functionality related to course management, reviews, and user authentication. Leveraging the power of Express.js and MongoDB with Mongoose, this API allows users to interact with various endpoints for retrieving course details along with reviews, creating courses, submitting reviews, and more.
-Currently there are 4 user roles. They are SuperAdmin, Manager, Seller, User. Based on the roles they have different abilities and dashboard ui. </p>
-
-<h2>🚀 Demo</h2>
-
-[https://course-management-system-two.vercel.app/](https://course-management-system-two.vercel.app/)
-<h2>🚀 Demo</h2>
-
-[https://course-management-system-two.vercel.app/](https://course-management-system-two.vercel.app/)
-
-
-## Project documentation: https://documenter.getpostman.com/view/31188876/2s9YsDjZnp 
 
 
 ## Installation
